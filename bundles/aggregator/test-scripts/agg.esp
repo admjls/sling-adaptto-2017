@@ -1,0 +1,2 @@
+Hi this is the agg script at <%= new Date() %>
+content=<%= content %>
