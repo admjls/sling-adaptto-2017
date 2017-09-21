@@ -1,1 +1,8 @@
-This script will be used to aggregate content.
+var result = { 
+	"path" : resource.getPath(),
+	"siblings" : query.$(resource).siblings(),
+	"date" : new Date(),
+	"rootChildren" : query.$(resource).parents().last().children(),
+	"queryResult" : query.$(resourceResolver).searchStrategy(SearchStrategyQUERY).find("nt:base[title=foo]")
+};
+result;

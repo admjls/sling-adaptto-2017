@@ -1,2 +1,6 @@
-Hi this is the agg script at <%= new Date() %>
-content=<%= content %>
+This is the agg script at <%= new Date() %>
+Content path <%= content.path %>
+Date: (<%= content.date %>)
+Siblings (<%= content.siblings %>)
+Root children (<%= content.rootChildren %>)
+Query result (<%= content.queryResult %>)
